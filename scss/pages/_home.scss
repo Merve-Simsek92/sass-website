@@ -1,3 +1,12 @@
 .home-bgImg-container{
-    @include bgImage(100,)
+
+@include bgImage(100vh, $main-bgImage-path)
+}
+.home{
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
 }

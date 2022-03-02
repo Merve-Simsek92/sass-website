@@ -1,0 +1,23 @@
+ @import "./scss/abstract/variables","./scss/abstract/mixing";
+ @import "./scss/base/reset";
+ @import "./scss/components/footer","./scss/components/nav";
+ @import "./scss/pages/about";
+
+   body {
+       color:$text-color;
+       background: $primary-color;
+       height: 100vh;
+       font-family: $font-family;
+       line-break: 1;
+    }
+
+    
+   a {
+       text-decoration: none;
+       color: $text-color;
+   }
+   h1,
+   h2,
+   h3 {
+       font-weight: 400;
+   }
